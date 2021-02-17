@@ -64,5 +64,11 @@ int main(int argc, char *argv[])
         qDebug() << *i <<',';
     }
 
+    QMap<int, QString> map;
+    for(auto elem : map)
+    {
+
+    }
+
     return a.exec();
 }
